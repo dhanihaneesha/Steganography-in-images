@@ -1,0 +1,20 @@
+Name - TEAM 7
+Topic - LSB based steganography
+
+Input: python stego.py
+Encrypt-1 or Decrypt-2 : 1
+Enter cover image path: cover2.png
+--> RGB color Image!
+Enter secret message (Enter 0 for default message):Bomb Blast in TajHotel
+=> Encoded Binary String: 010000010110110101100001011011100110010001100101011001010111000000100000001100010011100001000011010100110011000000110010001100000011000000110111
+--> Stego Image written into embed.png file for further decryption !
+Encrypt-1 or Decrypt-2 : 2
+Enter stego image path: embed.png
+--> RGB color Image!
+Enter secret message length (Enter 0 for default length): 22
+=> Recovered Binary String: 010000010110110101100001011011100110010001100101011001010111000000100000001100010011100001000011010100110011000000110010001100000011000000110111
+=> secrete Message: Bomb Blast in TajHotel
+
+Input to get psnr value : python psnr.py cover2.png
+-->80.76374434207722
+
